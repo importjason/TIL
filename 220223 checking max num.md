@@ -9,7 +9,7 @@ import random
 lst = []
 
 for _ in range(1000000):
-  lst.append(random.randint(1,10000))  # Method adding numbers in list and print max number at once
+  lst.append(random.randint(1,10000))  # Method adding numbers in list and print max number at once (1.04 s)
 
 print(max(lst))
 ~~~
@@ -24,12 +24,11 @@ maxnum = 0
 
 for _ in range(1000000):
   ran = random.randint(1,10000)
-  maxnum = max(maxnum,ran)  # Method comparing the new number and old max number every time
+  maxnum = max(maxnum,ran)  # Method comparing the new number and old max number every time (1.24 s)
 
 print(maxnum)
 ~~~
 
-(1.04 s, 1.24 s)
 
 **But why?**
 
