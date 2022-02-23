@@ -3,7 +3,7 @@ Learned while solving Baekjoon no.24499 :
 
 When you find the maximum value, using
 
-~~~python
+~~~Python
 import random
 
 lst = []
@@ -16,7 +16,7 @@ print(max(lst))
 
 is faster than
 
-~~~
+~~~Python
 import random
 
 lst = []
@@ -33,6 +33,6 @@ print(maxnum)
 
 **But why?**
 
-I checked at various circumstances and found it's not a coincidence. There must be a particular reason.
+I checked at various situations and found it's not a coincidence. There must be a particular reason.
 
-Maybe the clue would be found on the website, but in the circumstance that I don't know about time complexity, the next TIL will solve it.
+Maybe the clue would be found on https://wiki.python.org/moin/TimeComplexity, but in the circumstance that I don't know about time complexity, the next TIL will solve it.
