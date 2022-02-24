@@ -1,19 +1,19 @@
 # Time Complexity
 I thought knowing the time complexity is essential to figure out the point I mentioned in [220223 Checking max num.md](https://github.com/importjason/TIL/blob/main/220223%20Checking%20max%20num.md), and it was right.
 
-Time complexity shows the amount of time taken by running an algorythm, as a function of input number.
+Time complexity shows the amount of time taken by running an algorithm.
 There are three notations of time complexity : **Big-O**(most conservative) **Big-Ω**(most generous) **Big-θ**(average of the two in the front)
 
 # Big-O Notation
-Since the Big-O describes the worst possible speed, it is used most commonly(to show that the algorithm perform at the speed at least).
+Since the Big-O describes the worst possible speed, it is used most commonly(to show that the algorithm performs at the speed at least).
 
-In Big-O notation, other terms except the dominant one in equation of step number could be neglected. For example, if it takes **4n^2 − 2n + 2** steps to complete a
+In Big-O notation, other terms except the dominant one in the equation of step number could be neglected. For example, if it takes **4n^2 − 2n + 2** steps to complete a
 problem of size n, time complexity would be O(n^2). The leading coefficient would be neglected as well.
 
-These are the type and explanation of time complexity from reecodecamp.org.
+These are the type and explanations of time complexity from reecodecamp.org.
 
 - O(1) — Constant Time: Given an input of size n, it only takes a single step for the algorithm to accomplish the task.
-- O(log n) — Logarithmic time: given an input of size n, the number of steps it takes to accomplish the task are decreased by some factor with each step.
+- O(log n) — Logarithmic time: given an input of size n, the number of steps it takes to accomplish the task is decreased by some factor with each step.
 - O(n) — Linear Time: Given an input of size n, the number of steps required is directly related (1 to 1)
 - O(n²) — Quadratic Time: Given an input of size n, the number of steps it takes to accomplish a task is square of n.
 - O(C^n) — Exponential Time: Given an input of size n, the number of steps it takes to accomplish a task is a constant to the n power (pretty large number).
