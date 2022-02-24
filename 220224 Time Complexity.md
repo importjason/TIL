@@ -20,8 +20,8 @@ These are the type and explanation of time complexity from reecodecamp.org.
 
 Time complexity is also important in solving problems, like Baekjoon or Codeforces, so it is essential to be familiar with the table below. Knowing the required time complexity will help what kind of algorithm we should use.
 
-|input size||required time complexity for 1s processing time|
-|:---:||:---:|
+|input size|required time complexity for 1s processing time|
+|:---:|:---:|
 |N<=11|O(N!)|
 |N<=25|O(2^N)|
 |N<=100|O(N^4)|
