@@ -2,7 +2,7 @@
 Knowing the time complexity seemed essential for grasping the point I mentioned in [220223 Checking max num.md](https://github.com/importjason/TIL/blob/main/220223%20Checking%20max%20num.md), and it was right.
 
 Time complexity shows the amount of time taken by running an algorithm.
-There are three notations of time complexity : 
+There are three notations of time complexity : </br>
 **Big-O**(most conservative) **Big-Ω**(most generous) **Big-θ**(average of the two in the front)
 
 # Big-O Notation
