@@ -1,4 +1,4 @@
-Learned while solving Baekjoon no.24499 :
+# Learned while solving Baekjoon no.24499
 
 
 When you find the maximum value, using
@@ -30,7 +30,7 @@ print(maxnum)
 ~~~
 
 
-**But why?**
+# But why?
 
 I checked at various situations and found it's not a coincidence. There must be a particular reason.
 
