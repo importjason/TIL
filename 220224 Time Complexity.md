@@ -3,7 +3,7 @@ Knowing the time complexity seemed essential for grasping the point I mentioned 
 
 Time complexity shows the amount of time taken by running an algorithm.
 There are three notations of time complexity : </br>
-**Big-O**(most conservative) **Big-Ω**(most generous) **Big-θ**(average of the two in the front)
+**Big-O**(most conservative), **Big-Ω**(most generous), **Big-θ**(average of the two in the front)
 
 # Big-O Notation
 Since the Big-O describes the worst possible speed, it is used most commonly(to show that the algorithm performs at the speed at least).
