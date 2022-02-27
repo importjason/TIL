@@ -15,7 +15,7 @@ def function1(A,n):
 
 - **(A)** 1 assignment operation
 - **(B)** n times of loop with (C) and (D)
-- **(C)** 1 arithmetic operation (A\[i] % 2), 1 comparison operation (A\[i] % 2 == 0)
-- **(D)** 1 arithmetic operation (sum + A\[i]), 1 assignment operation (sum = sum + A\[i])
+    * **(C)** 1 arithmetic operation (A\[i] % 2), 1 comparison operation (A\[i] % 2 == 0)
+    * **(D)** 1 arithmetic operation (sum + A\[i]), 1 assignment operation (sum = sum + A\[i])
 
 So total number of operations comes **T(n) = 1 + n * ( 2 + 2 ) = 4n + 1** and in Big-O notation, **T(n) = O(n)** (linear).
