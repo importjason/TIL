@@ -29,4 +29,4 @@ print(maxnum)
 
 In the second code, the total number of operations and time complexity will be T(n) = 1 + n * (1 + n + 1) = 2n^2 + 1, O(n^2).
 
-So I could know why the first code is faster comparing the time complexities, but I'm not sure if it is appropriate to apply O(n) for ```max(maxnum,num)``` as same as ```max(lst)``` because the former has only two elements. Since I can't find any new information about the time complexity of ```max()```, I think I should ask my seniors for help.
+So I could know why the first code is faster by comparing the time complexities, but I'm not sure if it is appropriate to apply O(n) for ```max(maxnum,num)``` as same as ```max(lst)``` because the former has only two elements. Since I can't find any new information about the time complexity of ```max()```, I think I should ask my seniors for help.
