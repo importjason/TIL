@@ -1,0 +1,20 @@
+# Learned while inputting big number
+
+After learning how to input and output in C, I tried to input a big number in the next code.
+
+~~~C
+#include <stdio.h>
+
+int main(void)
+{
+  {
+      int input;
+      printf("input a number\n");
+      scanf("%d", &input);
+      printf("input number : %d\n",input);
+    }
+  return 0;
+}
+~~~
+
+
