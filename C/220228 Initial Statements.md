@@ -13,7 +13,7 @@ To start the printing code in C, it is essential to include **<stdio.h>**.
 
 **```#```** is preprocessing code, which tells the computer what to do before compiling. It does not affect other processes or variations.
 
-**```#include```** is the same as copying and pasting texts of following heather file. I thought it is similar to ```import``` in python, but what it does make the package name unnecessary in case of using the class in the package. Given that, ```#include``` is different from ```import```.
+**```#include```** is same as copying and pasting texts of following heather file. I thought it is similar to ```import``` in python, but what it does make the package name unnecessary in case of using the class in the package. Given that, ```#include``` is different from ```import```.
 
 **```<stdio.h>```** is a name of a heather file in which various declarations are written. 'stdio' means standard input and output, and '.h' means heather, the extension.
 
