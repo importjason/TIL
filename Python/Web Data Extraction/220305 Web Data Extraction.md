@@ -4,7 +4,7 @@ My school adopted 'Milage Betting' system for class registration, which makes st
 
 Preparing for the class registration, I thought maybe I could find a linear rules between the milage needed for successful registration, and the ratio of successful to total applicants.
 
-So the next program I am preparing for is "Milage Calculator", which utilizes the betting result data on the school website, and I found learning the web extraction and linear regression essential to develop it.
+So the next program I am preparing for is "Milage Calculator", which utilizes the betting result data on the school website, and I felt learning the web extraction and linear regression essential to develop it.
 
 # Web Crawling and Web Scraping
 
