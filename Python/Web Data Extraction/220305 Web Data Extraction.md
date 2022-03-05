@@ -10,4 +10,4 @@ So the next program I am preparing for is "Milage Calculator", which utilizes th
 
 Web crawling is about discovering URLs or links on the web, while web scraping is about extracting tha data from websites. Usually, web crawling and web scraping is combined in web extracting project. So the sequence will be : Crawling URLs - Downloading the HTML files - Scraping the data from the files.
 
-In the TILs about web data extraction, the content abbout web scraping will be more important, and may include TILs about HTML and CSS.
+In the TILs about web data extraction, the content abbout web scraping will be treated more, and may include TILs about HTML and CSS.
