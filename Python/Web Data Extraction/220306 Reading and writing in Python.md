@@ -11,13 +11,13 @@ There are two types of files that can be handled in Python, normal text files an
 
 Opening the file can be done with the code below, no extra module required.
 
-        File_object = open(**r**"File_Name","Access_Mode")
+        File_object = open(**r**"filename.ext","Access_Mode")
         
-> The r perfix in front of "File_Name" means that tere will be no special character in the file name behind. For example, putting r perfix in front of a file name **"D:\temp\text.txt"** will prevent the part **\t** treated as the tab character.
+> The r perfix in front of "File_Name" means that tere will be no special character in the file name behind. For example, putting r perfix in front of a file name **"D:\temp\text.txt"** will prevent the part **\t** treated as the tab character. It could be ignored if the target file is located in same directory with the Python file and adress is not being place.
 
 ## read()
 
-        f = open("filename.txt","r")
+        f = open("filename.ext","r")
         
         data = f.read()
         
