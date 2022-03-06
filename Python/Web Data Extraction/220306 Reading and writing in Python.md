@@ -14,6 +14,7 @@ Opening the file can be done with the code below, no extra module required.
     File_object = open(r"filename.ext","Access_Mode")
         
 > The r prefix in front of "File_Name" means that there will be no special character in the file name behind. For example, putting r prefix in front of a file name **"D:\temp\text.txt"** will prevent the part **\t** treated as the tab character. It could be ignored if the target file is located in the same directory as the Python file and the address is not being placed.
+<br/><br/>
 
 ## read()
 
@@ -36,6 +37,7 @@ f.close()
 ~~~
 
 Also the file can read by the code above, but only the first line with it. ```f.readlines()``` can read all lines and return them merged in a list.
+<br/><br/>
 
 ## write()
 
@@ -58,6 +60,7 @@ f.close()
 ~~~
 
 Using ```f.writelines()``` will add each element in the list to the text file at a single time.
+<br/><br/>
 
 ## close()
 
