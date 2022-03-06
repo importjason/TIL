@@ -17,10 +17,12 @@ Opening the file can be done with the code below, no extra module required.
 
 ## read()
 
-    f = open("filename.ext","r")
+~~~Python
+f = open("filename.ext","r")
 
-    data = f.read()
+data = f.read()
 
-    f.close()
-        
+f.close()
+~~~
+
 Reading from a file uses access mode 'r', which is default mode in opening files. The handle is positioned in at the begenning of the file, and raises error if the file does not exist. The data read is temporary, so it must be stored in extra variable for use.
