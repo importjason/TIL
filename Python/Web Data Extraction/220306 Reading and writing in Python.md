@@ -1,9 +1,9 @@
 # Text Files and Binary Files
 
-There are two types of files that can be handled in Python, normal text files and binary files.
+There are two types of files that can be handled in Python, normal text files and binary files. The read and write mode is determined by the access mode factor delivered.
 
-Text Files : Each line of text file ends in a special character called EOL(End of Line), which is the new line character '\n' in Python by default.
-Binary Files : In this type of file there is no terminator between lines, and the data is stored after being converted into a binary language(written in 0s and 1s).
+- Text Files : Each line of text file ends in a special character called EOL(End of Line), which is the new line character '\n' in Python by default.
+- Binary Files : In this type of file there is no terminator between lines, and the data is stored after being converted into a binary language(written in 0s and 1s).
 
 # How to open, read, write, close the data
 
