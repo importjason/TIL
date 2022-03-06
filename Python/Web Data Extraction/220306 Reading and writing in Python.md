@@ -18,7 +18,7 @@ Opening the file can be done with the code below, no extra module required.
 ## read()
 
 ~~~Python
-f = open("filename.ext","r")
+f = open('filename.ext','r')
 
 data = f.read()
 
@@ -26,3 +26,39 @@ f.close()
 ~~~
 
 Reading from a file uses access mode 'r', which is default mode in opening files. The handle is positioned in at the begenning of the file, and raises error if the file does not exist. The data read is temporary, so it must be stored in extra variable for use.
+
+~~~Python
+f = open('filename.ext','r')
+
+data = f.readline()
+
+f.close()
+~~~
+
+Also the file can read by the code above, but only the first line with it. ```f.readlines()``` can read all lines and return them merged in a list.
+
+## write()
+
+~~~Python
+f = open('filename.ext','w')
+
+f.write(content in string)
+
+f.close()
+~~~
+
+Access mode 'w' is used in writing to a file.
+
+~~~Python
+f = open('filename.ext','w')
+
+f.writelines(lst) for lst = [string1,srting2,string3]
+
+f.close()
+~~~
+
+Using ```f.writelines()``` will add each element in list to the text file at a single time.
+
+## close()
+
+The file should be closed in order to save it. If the file is not closed, the added data may not be shown, or buffring issue can come up.
